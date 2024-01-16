@@ -1,3 +1,5 @@
+README Update Pending: This is a draft!
+
 This is the *Anti-Fraud System* project I made myself.
 
 
