@@ -1,0 +1,17 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Anti-Fraud System/*
+!/Anti-Fraud System/task/
+/Anti-Fraud System/task/*
+!/Anti-Fraud System/task/src
+!/Anti-Fraud System/task/build.gradle
