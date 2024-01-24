@@ -24,6 +24,7 @@ public class TransactionValidator {
     private DateFormatValidator dateFormatValidator;
 
     public void validateTransaction(Transaction transaction) throws InvalidIpAddressException, InvalidCardNumberException, InvalidRegionException, InvalidDateFormatException {
+        if (Objects.isNull(transaction)) throw new IllegalArgumentException("invalid transaction request");
         ipAddressValidator.validate(transaction.getIpAddress());
         cardNumberValidator.validate(transaction.getCardNumber());
         dateFormatValidator.validate(transaction.getDate());
