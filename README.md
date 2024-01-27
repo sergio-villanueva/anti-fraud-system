@@ -18,12 +18,11 @@ There are three types of users in the system:
 is marked as Merchant by default and only an Administrator can assign users as Support.</p>
 
 The following is a chart showing which user has access to which endpoint:
-
-![antifraud system endpoints.png](..%2F..%2FDiagrams%2Fantifraud%20system%20endpoints.png)
-![access and role.png](..%2F..%2FDiagrams%2Faccess%20and%20role.png)
+![antifraud system endpoints](https://github.com/sergio-villanueva/anti-fraud-system/assets/94728439/b7db9783-a227-40e1-91e3-09f13ffb73b5)
+![access and role](https://github.com/sergio-villanueva/anti-fraud-system/assets/94728439/9699979d-3aed-496a-8f56-6bfbc7670ecc)
 
 ## Verify Transaction Journey Process Map
-![transactionValidation.png](..%2F..%2FDiagrams%2FtransactionValidation.png)
+![transactionValidation](https://github.com/sergio-villanueva/anti-fraud-system/assets/94728439/ad634590-293c-4846-bdc7-b1e4af33592c)
 
 <p>Transaction amount limits are based on the transaction history of a card number. Each approval and rejection 
 will raise or lower the threshold, respectively. Whenever a new card number is entered the default 
@@ -35,4 +34,5 @@ blacklisted for the fraud verification process.
 
 ## Recognized World Regions
 Every transaction must be associated to one of the following world regions:
-![World Regions.png](..%2F..%2FDiagrams%2FWorld%20Regions.png)
+
+![World Regions](https://github.com/sergio-villanueva/anti-fraud-system/assets/94728439/fb29c22b-c0f8-4259-a2cd-9f7504a75f84)
